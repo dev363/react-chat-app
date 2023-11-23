@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, useRoutes } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 interface InputProps {
   name: string;

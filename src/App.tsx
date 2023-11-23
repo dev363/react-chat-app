@@ -7,7 +7,7 @@ import Router from "./Routes";
 function App() {
   const socket = useSocketHook();
   return (
-    <div className="App p-4 h-screen w-screen">
+    <div className="App h-screen w-screen">
       <SocketContext.Provider value={{ socket }}>
         <RouterProvider router={Router} />
       </SocketContext.Provider>
