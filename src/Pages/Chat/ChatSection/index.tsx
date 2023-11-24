@@ -14,7 +14,7 @@ const ChatSection = () => {
       } `}
     >
       <Header />
-      <div className="message-listing bg-slate-200 h-[calc(100%_-_10rem)] px-3 flex flex-col overflow-y-scroll">
+      <div className="message-listing bg-slate-200 h-[calc(100%_-_10rem)] px-3 flex flex-col overflow-y-scroll relative">
         <div className="message left my-3 flex flex-col items-start ">
           <p className="w-max px-4 py-2 rounded-xl font-semibold text-md bg-purple-500 text-white">
             hello How are you?
@@ -29,7 +29,9 @@ const ChatSection = () => {
         {[...Array(15)].map((e, i) => (
           <Message key={i} />
         ))}
+        <p className="typing text-sm text-gray-500 ">Rahul Styping...</p>
       </div>
+
       <MessageInput />
     </main>
   );
