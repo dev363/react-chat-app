@@ -8,7 +8,7 @@ const ChatSection = () => {
   const { open, toggleOpen } = useContext(AppContext);
   return (
     <main
-      className={`message-container border-2 h-screen w-full md:w-auto ${
+      className={`message-container relative border-2 h-screen w-full md:w-auto ${
         open ? "md:ml-72" : "md:ml-20"
       } `}
     >

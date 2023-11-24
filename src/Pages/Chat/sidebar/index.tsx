@@ -8,7 +8,7 @@ const SideBar = () => {
     <div
       className={`${
         open ? " w-4/5 md:w-72" : "w-0 md:w-20"
-      } border-2 h-screen bg-purple-800 text-white duration-300 absolute top-0 left-0 overflow-hidden`}
+      } border-2 h-screen bg-purple-800 text-white duration-300 absolute z-10 top-0 left-0 overflow-hidden`}
     >
       <LoggedProfile />
       <div className="searh-bar px-2 pt-3">

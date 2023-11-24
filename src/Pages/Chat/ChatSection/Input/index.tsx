@@ -4,9 +4,9 @@ const MessageInput = () => {
       <input
         type="text"
         placeholder="type here ..."
-        className=" bg-gray-200 p-2"
+        className=" bg-gray-200 p-2 flex-auto"
       />
-      <button className="bg-purple-800 text-white font-semibold p-2 hover:bg-purple-900">
+      <button className="bg-purple-800 md:w-16 text-white font-semibold p-2 hover:bg-purple-900">
         <span className="block text-2xl">&#10148;</span>
       </button>
     </div>
